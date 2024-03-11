@@ -1,0 +1,135 @@
+.achieve-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600; /* Semi-Bold */
+    color: var(--d-gray);
+    max-width: 550px;
+}
+
+.achieve-text span {
+    color: var(--primary);
+}
+
+.achieve-text p {
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400; /* Regular */
+    color: var(--gray);
+    max-width: 600px;
+}
+
+.achieve-ilustration {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.achieve-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    width: 250px;
+}
+
+.achieve-card img {
+    width: 50px;
+}
+
+.achieve-card h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600; /* Semi-Bold */
+    color: var(--d-gray);
+}
+
+.achieve-card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400; /* Regular */
+    color: var(--gray);
+}
+
+.achieve-container {
+    padding: 4rem 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: flex-start;
+    background-color: var(--silver);
+}
+
+.achieve-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 300px;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 1920px) {
+
+    .achieve-text h2 {
+        font-size: 3rem;
+    }
+
+    .achieve-text p {
+        font-size: 1.2rem;
+    }
+
+    .achieve-card {
+        padding: 1.5rem;
+        gap: 2rem;
+        width: 350px;
+    }
+
+    .achieve-card img {
+        width: 60px;
+    }
+
+    .achieve-card h2 {
+        font-size: 2.5rem;
+    }
+
+    .achieve-card p {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .achieve-container {
+        padding: 4rem 5%;
+        flex-direction: column;
+    }
+
+    .achieve-card {
+        width: 100%;
+        padding: 1.2rem 0;
+    }
+
+    .achieve-text {
+        align-items: center;
+    }
+
+    .achieve-text h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .achieve-text p {
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .achieve-ilustration {
+        flex-direction: column;
+    }
+
+
+}
